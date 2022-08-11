@@ -1,0 +1,76 @@
+.editortop{
+    display: flex;
+    z-index: 20;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    background: white;
+    left: 0;
+    filter: drop-shadow(0 0 5px grey);
+    top: 0;
+    color:  #002244;
+    /* border-top: 5px solid #f2aa4cff; */
+}
+.solidborder{
+    height: 5.5px;
+    background:linear-gradient(to right,darkblue,#f2aa4cff);
+}
+.logodesign{
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    border: 2px solid white;
+    margin: 0px 40px 0 40px;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.editorfunctionsdesign{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    font-family: lato;
+    list-style-type:none;
+}
+.editorfunctionsdesign li{
+    margin: 0 1.2rem;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    transform-origin: left;
+    cursor: pointer;
+    font-weight: 600;
+}
+.editorfunctionsdesign li .editortop-li{
+    color: #002244;
+    text-decoration: none;
+    margin-top:35px;
+    padding-bottom: 30px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.editorfunctionsdesign li span{
+    width: 0%;
+    transition: all 1.0s;
+}
+
+.editorfunctionsdesign li:hover span{
+    display: block;
+    background-color:darkblue;
+    height: 2.5px;
+    width: 100%;
+}
+.username{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.cstyledesign{
+    text-align: left;
+    font-weight: 400;
+}

@@ -1,0 +1,35 @@
+.messages{
+    width: 100%;
+}
+.messagetext{
+    background: lightgrey;
+    border-radius: 10px;
+    padding:3px;
+    margin-bottom: 0;
+}
+.messagebox{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    background-color: lightgrey;
+    flex-direction: column;
+    padding: .3rem;
+    border-radius: 7px;
+}
+.messagecontainer{
+    display: flex;
+    align-items: center;
+}
+.justifyend{
+    justify-content: flex-end;
+    margin-top: 3px;
+}
+.justifystart{
+    justify-content: flex-start;
+    margin-bottom: .3rem;
+}
+.senttext{
+    font-weight: 500;
+    display: block;
+    padding-left: .2rem;
+}

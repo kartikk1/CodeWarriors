@@ -1,0 +1,61 @@
+.feature_card {
+    background: #1F2124;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  margin: 50px 20px 20px 20px;
+  /* width: calc(33.3333% - 40px); 1/3 minus the margins (20+20) */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  /* float: left; */
+  height: 300px;
+  width: 282px;
+  /* animation: huerotate 5s linear infinite; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  
+  -webkit-box-pack: start;
+  /* outline: 6px round red; */
+  padding: 20px;
+  
+  /* background:white; */
+  /* box-shadow: 0.4px 0.6px 10px rgba(0,255,0, .7); */
+  /* transition: all .3s; */
+  margin: 2rem;
+  text-align: center;
+}
+.cardicon img {
+  filter: invert(100%);
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  text-align: center;
+}
+@keyframes huerotate{
+    from{
+        filter: hue-rotate(0);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+.cardheading{
+    color:#f2aa4cff ;
+    text-align: center;
+}
+.cardheading h1{
+    font-size: 2rem;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cardcontent{
+    text-align: center;
+    align-items: flex-end;
+}
+.feature_card:hover{
+    transform: scale(1.06);
+}
